@@ -1,4 +1,4 @@
-# Secure Login Form (HW 2B)
+# HW2B
 
 An extremely simple HTML login page based loosely on the OWASP Juice Shop login, but this time to resist SQL injectio nand XSS. Built with:
 - HTML

@@ -64,7 +64,7 @@ const ok = bcrypt.compareSync(password, hash); // on login
 I built a simple login form with HTML and JS, using a small Express server over Node, hosting a SQLite DB. The form just has email and password, where the client has basic validation (not empty, contains @, password at least 8 chars) before being sent. The server does the same checks to prevent the same type of client-side bypasses as above. The DB only has a Users table, storing parameterized queries to prevent SQL injection like above; passwords are also hashed with bcrypt. Messages are shown with \texttt{textContent} instead of \texttt{innerHTML}, so injected HTML displays as plain text.
 
 \medskip
-GitHub: \url{https://github.com/philippzhuravlev/Assignment-2B}
+GitHub: \url{https://github.com/philip-crane/HW-2B}
 
 \section*{Part 3}
 
