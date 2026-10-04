@@ -1,0 +1,17 @@
+{
+  "name": "assignment-2b",
+  "version": "1.0.0",
+  "description": "Secure login form demo (HTML/JS + Express) for Cybersecurity HW 2B",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1"
+  }
+}

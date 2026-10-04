@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Login</h1>
+  <form id="loginForm" novalidate>
+    <p>
+      <label for="email"><b>Email:</b></label>
+      <input type="text" id="email" placeholder="Enter Email" name="email" autocomplete="off">
+    </p>
+    <p>
+      <label for="password"><b>Password:</b></label>
+      <input type="password" id="password" placeholder="Enter Password" name="password" autocomplete="off">
+    </p>
+    <p id="errorMsg"></p>
+    <button type="submit">Log in</button>
+  </form>
+  <p id="resultMsg"></p>
+  <script src="client.js"></script>
+</body>
+</html>
